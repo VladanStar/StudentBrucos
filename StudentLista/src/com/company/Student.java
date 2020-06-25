@@ -11,7 +11,7 @@ public class Student {
     private String datumRodjenja;
     private List<Integer> ocene = new ArrayList<>();
 
-    public Student(String ime, String prezime, int brojIndeksa, int godinaStudiranja, String datumRodjenja,) {
+    public Student(String ime, String prezime, int brojIndeksa, int godinaStudiranja, String datumRodjenja) {
         this.ime = ime;
         this.prezime = prezime;
         this.brojIndeksa = brojIndeksa;
